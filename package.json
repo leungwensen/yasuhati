@@ -1,0 +1,19 @@
+{
+  "name": "yasuhati",
+  "version": "0.0.1",
+  "description": "JavaScriptで休むな！８分音符ちゃん♪",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leungwensen/yasuhati.git"
+  },
+  "author": "leungwensen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leungwensen/yasuhati/issues"
+  },
+  "homepage": "https://github.com/leungwensen/yasuhati#readme"
+}
