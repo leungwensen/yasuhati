@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>JavaScriptで休むな！８分音符ちゃん♪</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-<div class="control-panel">
-    <button id="launch-game">launch</button>
-    <button id="quit-game">quit</button>
+<div class="container">
+    <div class="control-panel">
+        <button id="launch-game">launch</button>
+        <button id="quit-game">quit</button>
+    </div>
+    <div class="game-stage">
+        <canvas id="hati-layer" width="640" height="480"></canvas>
+        <canvas id="enemies-layer" width="640" height="480"></canvas>
+        <canvas id="items-layer" width="640" height="480"></canvas>
+    </div>
 </div>
+<script src="./js/yasuhati.js"></script>
 <script src="./js/game.js"></script>
 </body>
 </html>

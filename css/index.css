@@ -1,0 +1,28 @@
+.container {
+}
+
+.game-stage {
+    position: relative;
+    margin: 0 auto;
+    width: 640px;
+    height: 480px;
+}
+
+
+#enemies-layer, #hati-layer, #items-layer {
+    position: absolute;
+    bottom: 0;
+}
+
+#items-layer {
+    z-index: 1;
+    background-color: aliceblue;
+}
+
+#enemies-layer {
+    z-index: 2;
+}
+
+#hati-layer {
+    z-index: 3;
+}
