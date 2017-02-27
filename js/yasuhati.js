@@ -22,13 +22,8 @@
     const btnQuitGame = elementById('quit-game');
 
 
-    // canvas context
-    const layerHati = canvasContextById('hati-layer');
-    const layerEnemies = canvasContextById('enemies-layer');
-    const layerItems = canvasContextById('enemies-layer');
-
     // audio
-    function autoCorrelate(buf, sampleRate) => {
+    function autoCorrelate(buf, sampleRate) {
         const SIZE = buf.length;
         const MAX_SAMPLES = Math.floor(SIZE / 2);
         let best_offset = -1;
@@ -115,4 +110,11 @@
     btnQuitGame.disabled = true;
     btnLaunchGame.onclick = launchGame;
     btnQuitGame.onclick = quitGame;
+
+    // canvas context
+    const layerHati = canvasContextById('hati-layer');
+    const layerEnemies = canvasContextById('enemies-layer');
+    const layerItems = canvasContextById('enemies-layer');
+
+    
 })();
